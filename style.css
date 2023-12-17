@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Pretendard";
+  src: url("../font/Pretendard-Regular.subset.woff2") format(woff2), url("../font/Pretendard-Regular.subset.woff") format(woff);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #EF94FE 0%, #EDB6F7 65%, #CD3BE7 100%);
+    /*background-image: url("style/stone1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+html {
+    font-size: 12px;
+  }
+
+.backgroundpic{
+    margin-top: 15vh;
+    margin-left: 3vw;
+    position: fixed; /*스크롤 아니고 고정되는*/
+}
+
+a{
+    /*text-decoration: none;*/
+    color: inherit;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.image {
+    animation: rotateAnimation 5s linear infinite; /* 5초 동안 360도 회전, 무한 반복 */
+    /*max-width: 1000vw; /* 이미지의 최대 너비를 설정하세요 */
+}
+
+
+/*.image:hover {
+    width: 300px;
+    height: auto;
+    transform: rotate(45deg); /* 이미지를 45도 회전시킵니다. */
+
+
+.tittle{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 8vh;
+    /*border: 1px solid #000;*/
+    position: fixed; /*스크롤 아니고 고정되는*/
+}
+
+h1{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Pretendard";
+    text-align: center;
+    line-height: 2;
+}
+
+.instruction1{
+    width: 46vw;
+    height: 15vh;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    /*border: 1px solid #000;*/
+    position: fixed;
+}
+
+.instruction2{
+    width: 46vw;
+    height: 45vh;
+    margin-top: 36vh;
+    margin-left: 30vw;
+    /*border: 1px solid #000;*/
+    position: fixed;
+}
+
+p1{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Pretendard";
+    color: #fff;
+    line-height: 163%;
+    text-align: center;
+}
+
+.navigation{
+    width: 80vw;
+    height: 5vh;
+    margin-top: 80vh;
+    margin-left: 10vw;
+    /*border: 1px solid #000;*/
+    position: fixed;
+    color: #fff;
+    
+}
+
+.textbox{
+ 
+    margin-left: 10vw;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.ppp2{
+    margin-top: 70vh;
+    margin-left: 3vw;
+    position: fixed; /*스크롤 아니고 고정되는*/
+}
+
+
+.image1 {
+    animation: rotateAnimation 10s linear infinite; /* 5초 동안 360도 회전, 무한 반복 */
+    /*max-width: 1000vw; /* 이미지의 최대 너비를 설정하세요 */
+}
+

@@ -1,0 +1,224 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Pretendard";
+  src: url("../font/Pretendard-Regular.subset.woff2") format(woff2), url("../font/Pretendard-Regular.subset.woff") format(woff);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #EF94FE 0%, #EDB6F7 65%, #CD3BE7 100%);
+    /*background-image: url("style/stone1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+html {
+    font-size: 12px;
+  }
+
+
+a{
+    /*text-decoration: none;*/
+    color: inherit;
+}
+   
+
+/*.image {
+    animation: rotateAnimation 5s linear infinite; /* 5초 동안 360도 회전, 무한 반복 */
+    /*max-width: 1000vw; /* 이미지의 최대 너비를 설정하세요 */
+/*
+
+
+/*.image:hover {
+    width: 300px;
+    height: auto;
+    transform: rotate(45deg); /* 이미지를 45도 회전시킵니다. */
+
+
+.tittle{
+    margin-top: 3vh;
+    width: 100vw;
+    height: 8vh;
+    /*border: 1px solid #000;*/
+    position: fixed; /*스크롤 아니고 고정되는*/
+}
+
+h1{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Pretendard";
+    text-align: center;
+    line-height: 2;
+}
+
+.layout{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 0vh;
+    /*border: 1px solid #fff;*/
+    position: fixed;
+    display: inline-block;
+}
+
+.layout1{
+    width: 17vw;
+    height: 100vh;
+    margin-top: 0vh;
+    border-right: 1px solid #4F4F4F;
+    position: fixed;
+    display: inline-block;
+}
+
+.layout2{
+    width: 47vw;
+    height: 62vh;
+    margin-left: 17vw;
+    padding-top: 17vh; 
+    border-right: 1px solid #4F4F4F;
+
+    display: inline-block;
+    overflow: auto;
+    max-width: 40vh;
+}
+
+.archivebox{
+    width: 40vw;
+    height: 20vh;
+    margin-left: 3vw;
+    margin-bottom: 0vh;
+    /*border: 1px solid #000;*/
+    display: block;
+    text-align: left;
+}
+
+.archivebox2{
+    width: 40vw;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-bottom: 0vh;
+    /*border: 1px solid #000;*/
+    display: block;
+    text-align: left;
+}
+
+.archivebox3{
+    width: 40vw;
+    height: 30vh;
+    margin-left: 3vw;
+    margin-bottom: 10vh;
+    /*border: 1px solid #000;*/
+    display: block;
+    text-align: left;
+}
+
+.archivebox4{
+    width: 40vw;
+    height: 170vh;
+    margin-left: 3vw;
+    margin-bottom: 10vh;
+    /*border: 1px solid #000;*/
+    display: block;
+    text-align: left;
+}
+
+
+
+h2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Pretendard";
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Pretendard";
+    line-height: 134.3%;
+}
+
+
+.layout3{
+    width: 36vw;
+    height: 170vh;
+    margin-left: 64vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    animation: scroll 10s linear infinite; /* 10초 동안 수직으로 스크롤 (원하는 시간으로 변경 가능) */
+    overflow: hidden;
+
+    border-left: 1px solid #4F4F4F;
+}
+
+.image {
+    width: 27vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+  }
+
+@keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-170%); /* 수직으로 이동하는 효과 */
+    }
+  }
+
+
+
+
+
+p1{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Pretendard";
+    color: #fff;
+    line-height: 163%;
+    text-align: center;
+}
+
+.navigation{
+    width: 80vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    position: fixed;
+    /*border: 1px solid #000;*/
+    
+}
+
+.formbox{
+    margin-left: 3vw;
+    margin-top: 17vh;
+    width: 11vw;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.textbox{
+ 
+    margin-left: 10vw;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.ppp2{
+    margin-top: 70vh;
+    margin-left: 3vw;
+    position: fixed; /*스크롤 아니고 고정되는*/
+}
+
+
+.image1 {
+    animation: rotateAnimation 10s linear infinite; /* 5초 동안 360도 회전, 무한 반복 */
+    /*max-width: 1000vw; /* 이미지의 최대 너비를 설정하세요 */
+}
