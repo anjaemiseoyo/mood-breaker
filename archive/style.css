@@ -50,7 +50,7 @@ a{
 
 h1{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Pretendard";
     text-align: center;
     line-height: 2;
@@ -130,7 +130,7 @@ h1{
 
 h2{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Pretendard";
 }
 
@@ -144,7 +144,7 @@ h3{
 
 .layout3{
     width: 36vw;
-    height: 170vh;
+    height: 180vh;
     margin-left: 64vw;
     position: fixed;
     display: flex;
